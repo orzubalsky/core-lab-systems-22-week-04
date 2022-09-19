@@ -1,0 +1,24 @@
+.container-1 {
+  position: relative;
+  background: #aaa;
+  height: 500px;
+  width: 500px;
+}
+
+.element-1 {
+  position: absolute;
+  background: red;
+  height: 300px;
+  width: 300px;
+  right: 0;
+  bottom: 50px;
+}
+
+.element-2 {
+  position: absolute;
+  background: yellow;
+  height: 80px;
+  width: 80px;
+  top: 5px;
+  left: 0;
+}
