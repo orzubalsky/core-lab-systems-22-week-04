@@ -1,46 +1,26 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
+.manatee-1 {
+  background-image: url(../images/manatee.jpg);
+  height: 200px;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100%;
+img {
+  height: 307px;
+  width: 200px;
+  object-fit: cover;
 }
 
-.element {
-  background: #ddd;
-  height: 20vh;
-  width: 20vw;
+.color-1 {
+  filter: blur(3px) saturate(5.5) hue-rotate(30deg);
 }
 
-.element-1 {
-  background-color: hsl(0, 20%, 30%);
+.color-2 {
+  filter: invert(1);
 }
 
-.element-2 {
-  background-color: hsl(0, 60%, 30%);
+.image-stack {
+  position: relative;
 }
 
-.element-3 {
-  background-color: hsl(0, 100%, 30%);
-}
-
-.element-4 {
-  background-color: hsl(0, 60%, 40%);
-}
-
-.element-5 {
-  background-color: hsl(0, 60%, 50%);
-}
-
-.element-6 {
-  background-color: hsl(0, 60%, 80%);
-}
-
-.element-7 {
-  background-color: hsl(0, 60%, 70%);
+.image-stack img {
+  position: absolute;
 }
